@@ -1,7 +1,20 @@
-Esta es la historia de Edu
+git add adds to the staging(ram) one or more modified files
 
-Edu era nuv y esta es su historia.
+git commit modifies the repertory with the current changes in the staging memory, changing the files and keeping the previous records
 
-Todo comenzo cuando era un joven.
+git log shows the  diferent versions a file or directory has been through. 
+--stat to more detailed information of the changes
 
-Era un joven perezoso
+git status show 2 things: whats on staging, and what files had been changed and arent in the staging memory
+
+git cat shows whats inside an especific file
+
+git reset has 2 modes --hard will hard reset to a previous commit, deleting also staging memory.
+					--soft will keep the changes in staging
+
+git checkout will change the local directory to an specific commit, master, to return tu head version.
+
+git rn deletes files , with the --cached extension it will only delete them from the staging and repository, the proper way to delete a file that isnt ready for the head version is "git resetHEAD <file.extension>"
+
+
+
