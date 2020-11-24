@@ -17,4 +17,15 @@ git checkout will change the local directory to an specific commit, master, to r
 git rn deletes files , with the --cached extension it will only delete them from the staging and repository, the proper way to delete a file that isnt ready for the head version is "git resetHEAD <file.extension>"
 
 
+Aca comienzan los comandos de git para conectarse con el repositorio remoto
 
+Los basicos son:
+
+git remote
+git remote -v // nos sirven para ver la lista de repositorios remotos a los que nuestro repo local esta conectado.
+
+git remote rm tag // nos elimina la conexion con el repo remoto que comparta el tag que escribimos
+
+git fetch tag branch
+git merge tag branch
+git pull tag branch  // clona el repo remoto en local, dejando staging libre.
